@@ -1,16 +1,16 @@
-import React from 'react';
-import Link from 'next/link';
-import Head from 'next/head';
+import React from 'react'
+import Link from 'next/link'
+import Head from 'next/head'
 const Home = () => (
-    <div>
-        <Head>
-            <title>Home</title>
-        </Head>
+  <div>
+    <Head>
+      <title>Home</title>
+    </Head>
     <h1>Hello, World</h1>
-    <Link href="/users">
-        <a>Usuários</a>
+    <Link href='/users'>
+      <a>Usuários</a>
     </Link>
-    </div>
-);
+  </div>
+)
 
-export default Home;
+export default Home
